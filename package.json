@@ -1,0 +1,21 @@
+{
+  "name": "labx",
+  "version": "1.0.0",
+  "description": "This is a very simple Makefile which knows how to build Arduino sketches. It defines entire workflows for compiling code, flashing it to Arduino and even communicating through Serial monitor. You don't need to change anything in the Arduino sketches.",
+  "main": "apps.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-gyp": "^3.2.1",
+    "serialport": "^2.0.5",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Paulo Cardoso de Lima",
+  "license": "MIT"
+}
